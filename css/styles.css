@@ -1,151 +1,150 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-body{
- background-color: hsl(233, 47%, 7%);
+body {
+  background-color: hsl(233, 47%, 7%);
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 10rem;
-    left: 10rem;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 10rem;
+  left: 10rem;
 }
 
-.box1{
-    width: 35rem;
-    height: 28rem;
-    border: 0rem black solid;
-    align-items: center;
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-    background-color: hsl(244, 38%, 16%);
+.box1 {
+  width: 35rem;
+  height: 28rem;
+  border: 0rem black solid;
+  align-items: center;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  background-color: hsl(244, 38%, 16%);
 }
 
-.box2{
-    width: 35rem;
-    height: 28rem;
-    align-items: center;
-    border: 0rem black solid;
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem ;
-  background: url(/images/image-header-desktop.jpg);
+.box2 {
+  width: 35rem;
+  height: 28rem;
+  align-items: center;
+  border: 0rem black solid;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
   background-size: cover;
- 
-
-    
-   
 }
 
-.overlay{
-    position: absolute;
-    top: 0;
-    left: 35rem;
-    width: 35rem;
-    height: 28rem;
-    background: hsl(277, 94%, 28%);
-    opacity: 0.50;
+.img {
+  width: 35rem;
+  height: 28rem;
+  border: 0rem black solid;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
 
-
-
-.a1{
-    font-family: 'Inter', sans-serif;
-    font-size: 2.3rem;
-    position: absolute;
-    left: 3.5rem;
-    top: 4rem;
-    color: hsl(0, 0%, 100%);
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 35rem;
+  width: 35rem;
+  height: 28rem;
+  background: hsl(277, 94%, 28%);
+  opacity: 0.5;
 }
 
-.t1{
-    color: hsl(277, 64%, 61%);
+.a1 {
+  font-family: "Inter", sans-serif;
+  font-size: 2.3rem;
+  position: absolute;
+  left: 3.5rem;
+  top: 4rem;
+  color: hsl(0, 0%, 100%);
 }
 
-.a2{
-    font-family: 'Lexend Deca', sans-serif;
-    font-size: 0.9rem;
-    color: hsla(0, 0%, 100%, 0.75);
-    position: absolute;
-    left: 3.5rem;
-    top: 11.5rem;
-    line-height: 1.75;
+.t1 {
+  color: hsl(277, 64%, 61%);
 }
 
-.scontainer{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    left: 3.5rem;
-   
-    
+.a2 {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  position: absolute;
+  left: 3.5rem;
+  top: 11.5rem;
+  line-height: 1.75;
 }
 
-.a3{
-    font-family: 'Inter', sans-serif;
-    font-size: 2.3rem;
-    position: absolute;
-    left: 0rem;
-    color: hsl(0, 0%, 100%);
-    top: 20rem;
+.scontainer {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 3.5rem;
 }
 
-.a4{
-    font-family: 'Inter', sans-serif;
-    font-size: 2.3rem;
-    position: absolute;
-    left: 9.5rem;
-    color: hsl(0, 0%, 100%);
-    top: 20rem;
+.a3 {
+  font-family: "Inter", sans-serif;
+  font-size: 2.3rem;
+  position: absolute;
+  left: 0rem;
+  color: hsl(0, 0%, 100%);
+  top: 20rem;
 }
 
-.a5{
-    font-family: 'Inter', sans-serif;
-    font-size: 2.3rem;
-    position: absolute;
-    left: 19rem;
-    color: hsl(0, 0%, 100%);
-    top: 20rem;
+.a4 {
+  font-family: "Inter", sans-serif;
+  font-size: 2.3rem;
+  position: absolute;
+  left: 9.5rem;
+  color: hsl(0, 0%, 100%);
+  top: 20rem;
 }
 
-.p1{
-    font-family: 'Lexend Deca', sans-serif;
-    font-size: 0.9rem;
-    color: hsla(0, 0%, 100%, 0.75);
-    position: absolute;
-    left: 0rem;
-    top: 22.5rem;
+.a5 {
+  font-family: "Inter", sans-serif;
+  font-size: 2.3rem;
+  position: absolute;
+  left: 19rem;
+  color: hsl(0, 0%, 100%);
+  top: 20rem;
 }
 
-.p2{
-    font-family: 'Lexend Deca', sans-serif;
-    font-size: 0.9rem;
-    color: hsla(0, 0%, 100%, 0.75);
-    position: absolute;
-    left: 9.5rem;
-    top: 22.5rem;
+.p1 {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  position: absolute;
+  left: 0rem;
+  top: 22.5rem;
 }
 
-.p3{
-    font-family: 'Lexend Deca', sans-serif;
-    font-size: 0.9rem;
-    color: hsla(0, 0%, 100%, 0.75);
-    position: absolute;
-    left: 19rem;
-    top: 22.5rem;
+.p2 {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  position: absolute;
+  left: 9.5rem;
+  top: 22.5rem;
 }
 
-.footer{
-    font-size: 15px; 
-    text-align: center;
-    color: hsl(0, 0%, 100%);
-    position: absolute;
-    bottom: 0rem;
-    left: 38rem;
+.p3 {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  position: absolute;
+  left: 19rem;
+  top: 22.5rem;
+}
+
+.footer {
+  font-size: 15px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  position: absolute;
+  bottom: 0rem;
+  left: 38rem;
 }
